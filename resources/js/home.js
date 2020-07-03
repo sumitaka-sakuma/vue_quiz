@@ -1,8 +1,8 @@
 import Vue from 'vue'
-import App from './components/Home' 
-import SocialSharing from 'vue-social-sharing';
+import App from './components/page/Home' 
+import VueSocialSharing from 'vue-social-sharing'
 
-Vue.use(SocialSharing);
+Vue.use(VueSocialSharing);
 
 new Vue({
   el: 'app',
